@@ -14,18 +14,20 @@ p{
 }
 header{
     background: url(/img/koi.jpg);
-    background-image: url(huntington.png);
+    background-image: url(/img/huntington.png);
     padding: 50px;
-    background-size: 100% 100%;
+    background-size: 90%;
 }
 
 h1{
     text-align: center;
     color: white;
     font-family: 'Libre Baskerville', serif;
+    text-shadow: 2px 2px 2px;
 }
 h2{
     text-align: center;
     color: white;
     font-family: 'Courgette', cursive;
+    text-decoration: 1px 1px 1px black;
 }
