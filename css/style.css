@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+h2{
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+p{
+    font-family: 'Libre Baskerville', serif;
+}
+header{
+    background: url(/img/koi.jpg);
+    background-image: url(huntington.png);
+    padding: 50px;
+    background-size: 100% 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: 'Courgette', cursive;
+}
