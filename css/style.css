@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
 
 h2{
     background: url(../img/zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
+
 }
 p{
     font-family: 'Libre Baskerville', serif;
@@ -22,12 +24,51 @@ header{
 h1{
     text-align: center;
     color: white;
-    font-family: 'Libre Baskerville', serif;
-    text-shadow: 2px 2px 2px;
+    text-shadow: 3px 3px black;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 0px 40px 5px;
+
 }
 h2{
     text-align: center;
     color: white;
-    font-family: 'Courgette', cursive;
-    text-decoration: 1px 1px 1px black;
+    font-family: 'Satisfy', cursive;
 }
+
+.summary a{
+    text-decoration: none;
+    color: black;
+}
+
+abbr{
+    text-decoration: none !important;
+    border-bottom: 0px !important
+}
+
+div.participation{
+    background-image: url(/img/bamboo.png);
+    background-color: rgba(138, 188,159, 0.5);
+}
+
+div.benefits{
+    background-image: url(/img/bamboo.png);
+    background-color: rgba(138, 188,159, 0.5);
+}
+
+
+[role="contentinfo"]{
+        background-color: rgba(138, 188,159, 0.5);
+        padding: 60px;
+        font-family: 'Satisfy', cursive;
+        font-size: 30px;
+}
+
+footer{
+    background-color: darkgreen;
+    padding: 40px;
+    text-align: center;
+    height: 30px;
+}
+
+
+
