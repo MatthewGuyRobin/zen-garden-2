@@ -9,14 +9,14 @@ h2{
     background: url(../img/zen.svg);
     background-repeat: no-repeat;
     background-size: contain;
-
 }
+
 p{
     font-family: 'Libre Baskerville', serif;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    padding: 10px;
 }
+
 header{
     background: url(/img/koi.jpg);
     background-image: url(/img/huntington.png);
@@ -69,15 +69,14 @@ div.benefits{
 
 footer{
     background-color: darkgreen;
-    padding: 30px;
-    text-align: center;
+    padding: 80px;
     height: 30px;
-    margin: auto;
-    clear: both;
+    text-align: center;
+    display: block;
 }
 
 .fab{
-    color: white;
+    color: black;
     width: 50px;
     display: block;
 }
@@ -93,9 +92,91 @@ body{
 }
 
 nav{
-    background-color: black;
+    background-color:white
 }
 
+h3{
+    font-family: 'Julius Sans One', sans-serif;
+}
 
+[role="navigation"]{
+    column-count: 2;
+    background-color: #C6DED0;
+    font-family: 'Julius Sans One', sans-serif;
+}
 
+div{
+    padding: 1%;
+}
 
+.requirements{
+    padding: 0px;
+}
+
+.design-selection{
+    background-color: #C6DED0;
+}
+
+.main{
+    padding: 0px;
+}
+
+.design-selection li{
+    float: left;
+    padding: 1.5em 10%;
+    width: 100%;
+    border-top: solid 1px;
+    color: #c0cac3;
+    font-style: italic;
+}
+
+div.wrapper{
+    padding: 0px;
+}
+
+.sidebar{
+    padding: 0px;
+}
+
+div.design-archives{
+    padding: 0px;
+}
+
+.fab{
+    color: white;
+    height: 10cm;
+}
+
+h3.archives{
+    padding: 0%;
+    background-color: #C6DED0;
+    margin: 0%;
+}
+
+.fa-html5:before{
+    font-size: 70px;
+}
+
+.fa-css3:before{
+    font-size: 70px;
+}
+
+.fa-creative-commons:before{
+    font-size: 70px;
+}
+
+.fa-accessible-icon:before{
+    font-size: 70px;
+}
+
+.fa-github:before{
+    font-size: 70px;
+}
+
+.zen-resources{
+    float: left;
+    padding: 1.5em 10%;
+    width: 100%;
+    background-color: #C6DED0;
+    font-style: italic;
+}
